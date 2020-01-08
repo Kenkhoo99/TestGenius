@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/genius"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TutorAccount"></activity>
+        <activity android:name=".PersonalTutor" />
+        <activity android:name=".PersonalUser" />
+        <activity android:name=".MainUserSettings" />
+        <activity android:name=".UserAccount" />
+        <activity
+            android:name=".MainMain"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/genius">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/genius" />
+        <activity
+            android:name=".ui.quiz.QuizQuestion"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/quiz" />
+        <activity android:name=".ui.quiz.QuizResult" />
+        <activity android:name=".Login1" />
+        <activity android:name=".Forgot_Password" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ui.course.LogicGates" />
+        <activity android:name=".ui.course.ComputerScience" />
+        <activity android:name=".ui.course.CourseContent" />
+    </application>
+
+</manifest>

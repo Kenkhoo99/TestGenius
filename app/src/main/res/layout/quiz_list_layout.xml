@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp">
+
+    <Button
+        android:id="@+id/quizButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/course_button"
+        android:backgroundTint="#ffab"
+        android:drawableLeft="@drawable/ic_science_quiz"
+        android:drawablePadding="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Computer Science Warmups Level 2: Challenges"
+        android:textSize="12sp">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/quizID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        android:text="TextView"
+        android:visibility="invisible" />
+</RelativeLayout>

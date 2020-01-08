@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_header"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:paddingTop="50dp">
+
+
+    <ImageView
+        android:id="@+id/nav_header_imageView"
+        android:contentDescription="@string/genius"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:src="@drawable/genius" />
+</LinearLayout>
